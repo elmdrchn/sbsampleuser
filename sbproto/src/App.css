@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menubar {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  background-image:
+    linear-gradient(to top,
+        #b71c1c,
+        rgba(255, 255, 255, 0)),
+        linear-gradient(to bottom, #e53935, #e53935);
+  }
+
+.rectagle4 {
+  width: 48px;
+  height: 100vh;
+  display: flex;
+  top: 40px;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: #004070;
+}
+
+.copyright-footer {
+  /*width: 1633px;*/
+  height: 27px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.footer {
+  width: 100%;
+  height: 27px;
+  position: fixed;
+  background-color: #c4c4c4;
+  bottom: 0px;
+}
+
+.userIconContainer {
+  width: 48px;
+  height: 57px;
+  background-color: #2962ff;
+}
+
+.user {
+  width: 48px;
+  height: 13.5px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.USER-PROFILE {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  position: fixed;
+  margin-top: 55px;
+  margin-left: 90px;
+}
+
+.header-line{
+    width: 1700px;
+    height: 0px;
+    left: 90px;
+    top: 103px;
+
+    border: 1px solid #C8C5C5;
+    transform: rotate(-0.13deg);
+}
+
+.search-criteria-group {
+  width: 1710px;
+  height: 149px;
+  border-radius: 12px;
+  border: solid 1px #000000;
+}
+
+input{
+    height: 31px;
+    border-radius: 5px;
+    border: solid 1px #000000;
+    white-space:nowrap;
+}
+
+
+::placeholder{
+  width: 90px;
+  height: 20px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  text-indent: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+  /* width: 550px; */
+  margin: 15px;
+  /* text-align: center; */
+  line-height: 75px;
+
+  /* font-size: 30px; */
+}
+
+button{
+  /* width: 101px; */
+  height: 24px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px #dab423;
+  background-color: rgba(244, 213, 101, 0.88);
+}
+
+label {
+  height: 12px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.result-panel {
+  width: 1786px;
+  height: 473px;
+  border: solid 1px #000000;
+}
